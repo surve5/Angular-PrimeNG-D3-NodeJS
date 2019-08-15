@@ -1,7 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
-import { CustomImageComponent } from './custom-image/custom-image.component';
-import { TextInputComponent } from './text-input/text-input.component';
+import { PrimengDemoComponent } from './primeng-demo/primeng-demo.component';
+import { D3DemoComponent } from './d3-demo/d3-demo.component';
+
 
 @NgModule({
     schemas: [NO_ERRORS_SCHEMA],
@@ -9,12 +10,12 @@ import { TextInputComponent } from './text-input/text-input.component';
         CommonModule,
     ],
 	declarations: [
-        CustomImageComponent,
-        TextInputComponent
+        PrimengDemoComponent,
+        D3DemoComponent
     ],
 	exports: [
-        CustomImageComponent,
-        TextInputComponent
+        PrimengDemoComponent,
+        D3DemoComponent
     ]
 })
 export class ComponentModule {}
