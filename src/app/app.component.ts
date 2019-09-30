@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AppService} from './appservice';
+import * as d3 from 'd3';
 
 @Component({
   selector: 'app-root',
